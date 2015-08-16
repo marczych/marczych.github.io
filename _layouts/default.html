@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>{{ page.page_title }}</title>
+      <link rel="stylesheet" type="text/css" href="/css/main.css">
+   </head>
+   <body>
+      <nav>
+         <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+         </ul>
+      </nav>
+
+      <div>
+         <h1>{{ page.page_header}}</h1>
+         {{ content }}
+      </div>
+
+      <footer>
+         <ul>
+            <li><a href="mailto:marczych@gmail.com">email</a></li>
+            <li><a href="https://github.com/marczych">github.com/marczych</a></li>
+         </ul>
+      </footer>
+   </body>
+</html>
