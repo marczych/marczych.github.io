@@ -79,6 +79,8 @@ p, ul {
 
 h1, h2, h3, h4 {
    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+   margin-top: 40px;
+   margin-bottom: 20px;
 }
 
 h1 {
@@ -111,7 +113,7 @@ nav ul {
    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
    padding: 0px;
    list-style: none;
-   font-weight: bold;
+   font-weight: 100;
 }
 
 nav ul li {
@@ -124,10 +126,14 @@ nav a {
 }
 
 nav hr {
-   width: 400px;
+   width: 500px;
    background-color: #27A138;
    border: 0;
    height: 2px;
+}
+
+nav .active {
+   font-weight: bold;
 }
 
 header {

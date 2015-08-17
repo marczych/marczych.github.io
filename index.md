@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Marc Zych
+name: about
 ---
 
 I'm Marc, a software engineer currently living in San Luis Obispo, California.
