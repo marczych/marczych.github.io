@@ -5,7 +5,29 @@ name: projects
 ---
 
 The full list of open source repositories that I've contributed to can be found on [GitHub].
-The following is a description of the most interesting ones:
+The following is a list of the most interesting ones:
+
+# Matryoshka
+
+[Matryoshka] is a configurable caching library for PHP that allows you to build custom caching behavior on the fly.
+This is accomplished by wrapping existing backends with reusable components.
+For example, given an existing backend you can easily change its functionality by wrapping it with another backend to prefix all keys, change expiration times, gather metrics, disable gets.
+More information can be found in the [introductory blog post][Matryoshka post] and in the README on GitHub.
+Developing this library was a great experience as it gave me the chance to practice test-driven development to get to 98+% code coverage.
+
+# iFixit Android App
+
+The [iFixit Android App] is an [open source][iFixitAndroid repo] app that helps users fix their broken devices.
+It also features community features such as guide editing, favoriting, and commenting.
+The app was started as a final class project with [Tim Asp] and iterated upon in a subsequent class.
+Since then, we've added more features, improved its stability, and maintained it through several Android system updates.
+
+# Ray Tracer
+
+I wrote a fairly standard [ray tracer] in my intro to graphics class which featured spheres, phong shading, depth of field, and reflections.
+I then built upon it in my graduate graphics course and added refaction, procedural textures, and normal mapping.
+It's written entirely in C++ and uses OpenMP to parallelize the work.
+Check out the [README][ray tracer README] to see renders and runtimes.
 
 # Global Game Jam
 
@@ -30,6 +52,7 @@ The game is written in Lua with [LOVE].
 [Business Team] came to life when [Business Time] and [SpaceTeam] came together.
 This is a web based cooperative game that involves telling your teammates to complete certain tasks before the time runs out.
 This was written using [Node.js] and [socket.io].
+The playable game can be found at <http://businessteamgame.com>.
 
 
 [GitHub]: https://github.com/marczych
@@ -45,3 +68,9 @@ This was written using [Node.js] and [socket.io].
 [SpaceTeam]: http://www.sleepingbeastgames.com/spaceteam/
 [socket.io]: http://socket.io/
 [Node.js]: https://nodejs.org/
+[Matryoshka]: https://github.com/iFixit/Matryoshka
+[Matryoshka post]: http://itbrokeand.ifixit.com/2015/01/20/matryoshka-configurable-caching-library-for-php.html
+[iFixit Android App]: https://play.google.com/store/apps/details?id=com.dozuki.ifixit
+[iFixitAndroid repo]: https://github.com/iFixit/iFixitAndroid
+[Tim Asp]: https://github.com/timothyasp
+[ray tracer]: https://github.com/marczych/RayTracer
