@@ -5,23 +5,23 @@
       <link rel="stylesheet" type="text/css" href="/css/main.css">
    </head>
    <body>
+      <header>
+         <a class="site-title" href="/"><h1>Marc Zych</h1></a>
+      </header>
+
       <nav>
          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="https://github.com/marczych">GitHub</a></li>
+            <li><a href="mailto:marczych@gmail.com">Email</a></li>
          </ul>
+
+         <hr>
       </nav>
 
-      <div>
-         <h1>{{ page.page_header}}</h1>
+      <div class="content">
+         <h2>{{ page.page_header }}</h2>
          {{ content }}
       </div>
-
-      <footer>
-         <ul>
-            <li><a href="mailto:marczych@gmail.com">email</a></li>
-            <li><a href="https://github.com/marczych">github.com/marczych</a></li>
-         </ul>
-      </footer>
    </body>
 </html>

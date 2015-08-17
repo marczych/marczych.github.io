@@ -62,11 +62,6 @@ html {
  * End reset.
  */
 
-body {
-   margin: 60px auto;
-   width: 70%;
-}
-
 a {
    text-decoration: none;
    color: #999;
@@ -102,7 +97,16 @@ h4 {
    font-size: 1.9em;
 }
 
-nav ul, footer ul {
+p {
+   margin-bottom: 20px;
+}
+
+nav {
+   text-align: center;
+   font-size: 1.5em;
+}
+
+nav ul {
    font-size: 1em;
    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
    padding: 0px;
@@ -110,12 +114,46 @@ nav ul, footer ul {
    font-weight: bold;
 }
 
-nav ul li, footer ul li {
+nav ul li {
    display: inline;
    margin-right: 20px;
 }
 
-footer {
-   border-top: 1px solid #d5d5d5;
-   font-size: .8em;
+nav a {
+   color: #27A138;
+}
+
+nav hr {
+   width: 400px;
+   background-color: #27A138;
+   border: 0;
+   height: 2px;
+}
+
+header {
+   background-color: #27A138;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   margin-bottom: 20px;
+}
+
+.site-title {
+   text-align: center;
+   text-decoration: none;
+   color: white;
+   text-shadow: 3px 3px 3px #555;
+}
+
+a.site-title:hover {
+   text-decoration: none;
+}
+
+.site-title h1 {
+   font-size: 5em;
+}
+
+.content {
+   margin: 60px auto;
+   width: 80%;
+   max-width: 800px;
 }
