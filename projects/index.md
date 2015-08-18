@@ -74,3 +74,4 @@ The playable game can be found at <http://businessteamgame.com>.
 [iFixitAndroid repo]: https://github.com/iFixit/iFixitAndroid
 [Tim Asp]: https://github.com/timothyasp
 [ray tracer]: https://github.com/marczych/RayTracer
+[ray tracer README]: https://github.com/marczych/RayTracer#readme
