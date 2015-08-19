@@ -72,8 +72,8 @@ a:hover {
 }
 
 p, ul {
-   font-size: 1.5em;
-   line-height: 1.4em;
+   font-size: 1.3em;
+   line-height: 1.8em;
    color: #333;
 }
 
@@ -101,6 +101,7 @@ h4 {
 
 p {
    margin-bottom: 20px;
+   font-family: 'Georgia', 'Garamond', 'serif';
 }
 
 nav {
