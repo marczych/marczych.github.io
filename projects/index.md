@@ -4,7 +4,7 @@ title: Projects - Marc Zych
 name: projects
 ---
 
-A more complete list of open source repositories that I've contributed to can be found on [GitHub].
+A complete list of open source repositories that I've contributed to can be found on [GitHub].
 Here are the most interesting ones:
 
 # Matryoshka
@@ -34,7 +34,7 @@ Check out the [README][ray tracer README] to see renders and runtime stats.
 [Global Game Jam] is an event where teams from all over the globe create games according to a theme from start to finish in 48 hours.
 It is a lot of fun to take a weekend and work with different people on a very unique project.
 I also got the chance to do nearly all of the music for these games which was a blast.
-Here are the four games that I've developed at Global Game Jams over the last few years.
+Here are the four games that I've developed at Global Game Jams over the last few years:
 
 _[Planes on a Snake]_ is a game whose plot is a play on the movie Snakes on a Plane.
 The player controls Jamuel L. Sackson by firing at enemy plans before they crash into the snake-covered earth.
