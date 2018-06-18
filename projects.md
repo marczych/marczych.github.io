@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects - Marc Zych
+title: Projects
 name: projects
 ---
 
