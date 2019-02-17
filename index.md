@@ -15,7 +15,7 @@ I worked on a variety of things including server administration, backend feature
 I graduated from [Cal Poly, San Luis Obispo][Cal Poly] in 2013 with a B.S. and M.S. in Computer Science through the Blended 4+1 program.
 For [my thesis], I investigated caching strategies, implemented generational caching for iFixit, and ran an experiment to determine how much better it performed than the existing implementation.
 
-In my free time I enjoy programming, playing (and recording) music, and road biking.
+In my free time I enjoy programming, playing (and recording) music, cooking, and road biking.
 
 [iFixit]: https://www.ifixit.com
 [Dozuki]: http://www.dozuki.com
